@@ -1,2 +1,2 @@
-#!/usr/bin/python3
-ython3 <<< $PYCODE
+#!/usr/bin/bash
+>>> PYCODE='print(f"Best School: {88+10}")

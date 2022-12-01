@@ -7,7 +7,11 @@
 /**
  *struct listint_s - singly linked list
  *@n: integer
+<<<<<<< HEAD
  *@next: points to the next node
+=======
+ * @next: points to the next node
+>>>>>>> c1807a0ceee2f21ff9a8079bc36d969345b73008
  *
  *Description: singly linked list node structure
  */

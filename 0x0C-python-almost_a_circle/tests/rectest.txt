@@ -1,0 +1,23 @@
+This test is performed on the base model
+
+The test asserts that the id is allocated based on the number of
+instance called without id
+It is also assumed that only integer is fed into id so this is not tested
+
+>>> from models.base import Base
+>>> from models.rectangle import Rectangle
+>>> Rec = Rectangle(1, 2, 3, 4)
+>>> print(Rec.area())
+2
+>>> print(Rec.id)
+1
+>>> Rec2 = Rectangle(1, 6, 9, 4, 12)
+>>> print(Rec2.id)
+12
+>>> print(Rec2.area())
+6
+>>> Rec3 = Rectangle(6, 5)
+>>> print(Rec.area())
+30
+>>> print(Rec.id)
+2
